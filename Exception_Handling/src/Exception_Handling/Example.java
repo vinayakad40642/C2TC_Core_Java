@@ -1,4 +1,4 @@
-package Day_15_Exception_Handling;
+package Exception_Handling;
 
 import java.util.Scanner;
 
