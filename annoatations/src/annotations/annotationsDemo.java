@@ -1,6 +1,6 @@
 package annotations;
 import java.lang.annotation.Annotation;
-@smartPhone()
+@SmartPhone()
 class Nokia_Series
 {
 String model;
@@ -10,7 +10,7 @@ public Nokia_Series(String model, int screensize) {
 	this.screensize = screensize;
 }
 }
-public class AnnotationsDemo {
+public class annotationsDemo {
 	public static void main(String[] args) {
 		Nokia_Series obj=new Nokia_Series("Fire", 4);
 		System.out.println(obj.model);
