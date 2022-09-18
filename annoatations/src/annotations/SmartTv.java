@@ -1,6 +1,6 @@
 package annotations;
 
-public @interface SmartTV {
+public @interface SmartTv {
 String os();
 int width();
 int height();
